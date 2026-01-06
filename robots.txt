@@ -1,0 +1,5 @@
+cat > robots.txt << 'EOF'
+User-agent: *
+Allow: /
+Sitemap: https://metzka-supertroca.netlify.app/sitemap.xml
+EOF
