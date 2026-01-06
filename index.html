@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metzka Super Troca | Troca de Óleo e Serviços Automotivos</title>
+    <meta name="description" content="Troca de óleo profissional, linha leve e pesada em Araquari. Agende via WhatsApp. Especialistas em nacionais e importados.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <div class="oil-drop">
+                <div class="drop"></div>
+                <div class="ripple"></div>
+            </div>
+            <p>Metzka Super Troca</p>
+        </div>
+    </div>
+
+    <!-- WhatsApp Botão Flutuante -->
+    <a href="https://wa.me/5547989291045?text=Olá Metzka! Gostaria de um orçamento para troca de óleo." class="whatsapp-float" target="_blank" aria-label="Contato via WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#hero" class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-oil-can"></i>
+                </div>
+                <div class="logo-text">
+                    <span class="logo-primary">Metzka</span>
+                    <span class="logo-accent">Super Troca</span>
+                </div>
+            </a>
+
+            <nav class="nav" id="mainNav">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link active">Início</a></li>
+                    <li><a href="#servicos" class="nav-link">Serviços</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#galeria" class="nav-link">Galeria</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <a href="tel:47989291045" class="phone-link">
+                    <i class="fas fa-phone"></i>
+                    <span>(47) 98929-1045</span>
+                </a>
+                <a href="https://wa.me/5547989291045" class="btn-whatsapp btn-sm" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                    WhatsApp
+                </a>
+                <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-background">
+            <div class="hero-shape shape-1"></div>
+            <div class="hero-shape shape-2"></div>
+            <div class="hero-shape shape-3"></div>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content animate-fade-up">
+                <h1 class="hero-title">
+                    <span class="highlight">Troca de óleo</span> rápida 
+                    <br>e profissional em <span class="highlight">Araquari</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Especialistas em linha leve e pesada, nacionais e importados. 
+                    Qualidade garantida com atendimento personalizado.
+                </p>
+                <div class="hero-buttons">
+                    <a href="https://wa.me/5547989291045" class="btn-primary animate-pop" data-delay="200" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                        Agendar pelo WhatsApp
+                    </a>
+                    <a href="#servicos" class="btn-secondary animate-pop" data-delay="400">
+                        <i class="fas fa-tools"></i>
+                        Ver Serviços
+                    </a>
+                </div>
+                <div class="hero-features">
+                    <div class="feature animate-slide-left" data-delay="600">
+                        <i class="fas fa-clock"></i>
+                        <span>Atendimento Rápido</span>
+                    </div>
+                    <div class="feature animate-slide-left" data-delay="800">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Garantia de Qualidade</span>
+                    </div>
+                    <div class="feature animate-slide-left" data-delay="1000">
+                        <i class="fas fa-car"></i>
+                        <span>Linha Leve & Pesada</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image animate-fade-left">
+                <div class="image-frame">
+                    <img src="images/fachada-loja.jpg" 
+                         alt="Fachada da Metzka Super Troca em Araquari - SC" 
+                         class="hero-img"
+                         loading="eager">
+                    <div class="image-overlay">
+                        <div class="image-badge">
+                            <i class="fas fa-certificate"></i>
+                            Serviço Profissional
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section class="services" id="servicos">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge animate-fade-up">Nossos Serviços</span>
+                <h2 class="section-title animate-fade-up" data-delay="100">Cuidamos do seu veículo com expertise</h2>
+                <p class="section-subtitle animate-fade-up" data-delay="200">Serviços completos para garantir performance e durabilidade</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card animate-pop" data-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-oil-can"></i>
+                    </div>
+                    <h3>Troca de Óleo e Filtros</h3>
+                    <p>Completa com produtos de primeira linha para motor, câmbio e diferencial.</p>
+                </div>
+
+                <div class="service-card animate-pop" data-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Caixa Manual e Automática</h3>
+                    <p>Especialistas em transmissões nacionais e importadas.</p>
+                </div>
+
+                <div class="service-card animate-pop" data-delay="500">
+                    <div class="service-icon">
+                        <i class="fas fa-wind"></i>
+                    </div>
+                    <h3>Higienização Ar-Condicionado</h3>
+                    <p>Limpeza completa com eliminação de bactérias e odores.</p>
+                </div>
+
+                <div class="service-card animate-pop" data-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-toolbox"></i>
+                    </div>
+                    <h3>Mecânica Básica</h3>
+                    <p>Freios, suspensão, embreagem e manutenção preventiva.</p>
+                </div>
+
+                <div class="service-card animate-pop" data-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <h3>Engraxamento</h3>
+                    <p>Lubrificação completa das partes móveis do veículo.</p>
+                </div>
+
+                <div class="service-card animate-pop" data-delay="500">
+                    <div class="service-icon">
+                        <i class="fas fa-temperature-low"></i>
+                    </div>
+                    <h3>Sistema de Arrefecimento</h3>
+                    <p>Troca de fluido e verificação de radiador e mangueiras.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section class="about" id="sobre">
+        <div class="container about-container">
+            <div class="about-image animate-fade-right">
+                <div class="image-frame">
+                    <!-- MOVI a imagem do interior para a galeria, então aqui vai o motor -->
+                    <img src="images/motor-carro.jpg" 
+                         alt="Motor sendo atendido na Metzka Super Troca - Técnica especializada" 
+                         class="about-img"
+                         loading="lazy">
+                </div>
+            </div>
+            <div class="about-content animate-fade-left">
+                <span class="section-badge">Sobre Nós</span>
+                <h2 class="section-title">Metzka Super Troca</h2>
+                <p class="about-text">
+                    Especialistas em serviços automotivos com excelência para toda a região 
+                    de Araquari e Itinga, oferecendo qualidade e confiança desde o primeiro atendimento.
+                </p>
+                <p class="about-text">
+                    Nossa missão é proporcionar um serviço rápido e confiável, utilizando 
+                    produtos de qualidade e mão de obra especializada para garantir a durabilidade do seu veículo.
+                </p>
+                
+                <div class="about-features">
+                    <div class="about-feature animate-slide-right" data-delay="100">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <h4>Atendimento Personalizado</h4>
+                            <p>Cada veículo recebe atenção individualizada</p>
+                        </div>
+                    </div>
+                    <div class="about-feature animate-slide-right" data-delay="200">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <h4>Produtos Premium</h4>
+                            <p>Trabalhamos apenas com marcas reconhecidas</p>
+                        </div>
+                    </div>
+                    <div class="about-feature animate-slide-right" data-delay="300">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <h4>Garantia nos Serviços</h4>
+                            <p>Transparência e confiança em todos os trabalhos</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-stats">
+                    <div class="stat animate-count" data-value="100" data-delay="400">
+                        <span class="stat-number">0</span>
+                        <span class="stat-label">Clientes Satisfeitos</span>
+                    </div>
+                    <div class="stat animate-count" data-value="24" data-delay="500">
+                        <span class="stat-number">0</span>
+                        <span class="stat-label">Agendamento Rápido</span>
+                    </div>
+                    <div class="stat animate-count" data-value="100" data-delay="600">
+                        <span class="stat-number">0</span>
+                        <span class="stat-label">Qualidade Garantida</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria -->
+    <section class="gallery" id="galeria">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge animate-fade-up">Nossa Galeria</span>
+                <h2 class="section-title animate-fade-up" data-delay="100">Veja nossos serviços em ação</h2>
+                <p class="section-subtitle animate-fade-up" data-delay="200">Trabalho profissional para linha leve e pesada</p>
+            </div>
+
+            <div class="gallery-grid">
+                <!-- 5 IMAGENS ÚNICAS - SEM REPETIÇÕES -->
+                <div class="gallery-item animate-pop" data-delay="300">
+                    <img src="images/interior-oficina.jpg" 
+                         alt="Interior da oficina Metzka Super Troca - Ambiente profissional" 
+                         loading="lazy"
+                         onclick="openLightbox(this)">
+                </div>
+                
+                <div class="gallery-item animate-pop" data-delay="400">
+                    <img src="images/troca-oleo-caminhao.jpg" 
+                         alt="Troca de óleo em caminhão - Especialistas em linha pesada" 
+                         loading="lazy"
+                         onclick="openLightbox(this)">
+                </div>
+                
+                <div class="gallery-item animate-pop" data-delay="500">
+                    <img src="images/veiculo-servico.jpg" 
+                         alt="Veículo sendo atendido - Serviço completo de manutenção" 
+                         loading="lazy"
+                         onclick="openLightbox(this)">
+                </div>
+                
+                <div class="gallery-item animate-pop" data-delay="300">
+                    <img src="images/produtos-oficina.jpg" 
+                         alt="Produtos de qualidade utilizados - Óleos e lubrificantes premium" 
+                         loading="lazy"
+                         onclick="openLightbox(this)">
+                </div>
+                
+                <!-- 5ª IMAGEM: Outro ângulo ou serviço (usando motor que estava no Sobre) -->
+                <div class="gallery-item animate-pop" data-delay="400">
+                    <img src="images/motor-carro.jpg" 
+                         alt="Manutenção de motor - Técnica especializada da Metzka" 
+                         loading="lazy"
+                         onclick="openLightbox(this)">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" onclick="closeLightbox()">
+            <i class="fas fa-times"></i>
+        </button>
+        <button class="lightbox-prev" onclick="changeImage(-1)">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="lightbox-next" onclick="changeImage(1)">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="">
+            <div class="lightbox-caption" id="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <!-- Contato -->
+    <section class="contact" id="contato">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge animate-fade-up">Entre em Contato</span>
+                <h2 class="section-title animate-fade-up" data-delay="100">Pronto para atender você</h2>
+                <p class="section-subtitle animate-fade-up" data-delay="200">Agende seu horário ou venha nos visitar</p>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-card animate-slide-right" data-delay="300">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Endereço</h3>
+                            <p>Rua das Flores, 132 – Itinga<br>Araquari – SC</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card animate-slide-right" data-delay="400">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Telefone / WhatsApp</h3>
+                            <p>(47) 98929-1045</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card animate-slide-right" data-delay="500">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h3>Horário de Funcionamento</h3>
+                            <p>Segunda a Sexta: 08:00 às 18:00<br>Sábado: 08:00 às 12:00</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card animate-slide-right" data-delay="600">
+                        <div class="contact-icon">
+                            <i class="fas fa-car"></i>
+                        </div>
+                        <div>
+                            <h3>Atendimento</h3>
+                            <p>Linha leve e pesada<br>Nacionais e importados</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper animate-pop" data-delay="700">
+                    <div class="contact-form">
+                        <h3>Solicite um Orçamento</h3>
+                        <p>Preencha os dados e enviaremos uma cotação pelo WhatsApp</p>
+                        
+                        <form id="cotacaoForm">
+                            <div class="form-group">
+                                <label for="nome">Nome completo</label>
+                                <input type="text" id="nome" required placeholder="Seu nome">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="telefone">WhatsApp</label>
+                                <input type="tel" id="telefone" required placeholder="(47) 99999-9999">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="veiculo">Veículo</label>
+                                <input type="text" id="veiculo" required placeholder="Ex: Toyota Corolla 2020">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="servico">Serviço desejado</label>
+                                <select id="servico" required>
+                                    <option value="" disabled selected>Selecione um serviço</option>
+                                    <option value="Troca de óleo">Troca de óleo e filtros</option>
+                                    <option value="Higienização ar">Higienização do ar-condicionado</option>
+                                    <option value="Mecânica básica">Mecânica básica</option>
+                                    <option value="Engraxamento">Engraxamento</option>
+                                    <option value="Arrefecimento">Sistema de arrefecimento</option>
+                                    <option value="Outro">Outro serviço</option>
+                                </select>
+                            </div>
+                            
+                            <button type="submit" class="btn-primary btn-block">
+                                <i class="fab fa-whatsapp"></i>
+                                Solicitar Orçamento no WhatsApp
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <!-- LOGO NO FOOTER -->
+                    <div class="footer-logo-container">
+                        <img src="images/logo-metzka.jpg" 
+                             alt="Logo Metzka Super Troca" 
+                             class="footer-logo-img">
+                    </div>
+                    <p class="footer-description">
+                        Especialistas em troca de óleo e serviços automotivos 
+                        em Araquari - SC. Qualidade e confiança desde o primeiro atendimento.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/5547989291045" target="_blank" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Links Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="#hero">Início</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#galeria">Galeria</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Serviços</h4>
+                    <ul class="footer-links">
+                        <li><a href="#servicos">Troca de Óleo</a></li>
+                        <li><a href="#servicos">Mecânica Básica</a></li>
+                        <li><a href="#servicos">Higienização Ar</a></li>
+                        <li><a href="#servicos">Engraxamento</a></li>
+                        <li><a href="#servicos">Arrefecimento</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contato</h4>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> Rua das Flores, 132 – Itinga, Araquari – SC</p>
+                        <p><i class="fas fa-phone-alt"></i> (47) 98929-1045</p>
+                        <p><i class="fas fa-clock"></i> Seg-Sex: 08:00 às 18:00</p>
+                        <p><i class="fas fa-car"></i> Linha leve e pesada</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Metzka Super Troca. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
